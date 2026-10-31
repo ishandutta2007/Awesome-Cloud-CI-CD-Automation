@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-CI-CD-Automation?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-CI-CD-Automation?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-CI-CD-Automation?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -63,9 +63,9 @@ Below is a detailed breakdown of industry-leading commercial CI/CD platforms. En
 
 ## 🛠️ Open-Source GitHub Projects
 
-Explore the top open-source projects for self-hosted CI engines, GitOps controllers, and containerized runner automation. Entries are sorted descending by GitHub star count.
+Explore the top open-source projects for self-hosted CI engines, GitOps controllers, and containerized runner automation. Entries are sorted descending by GitHub Stars_Count.
 
-| Project | Stars | Tech Stack / Architecture | License | Key Strengths & Deployment Model |
+| Project | GitHub_Stars | Tech Stack / Architecture | License | Key Strengths & Deployment Model |
 | :--- | :---: | :--- | :--- | :--- |
 | **[act](https://github.com/nektos/act)** | [![Stars](https://img.shields.io/github/stars/nektos/act?style=social&color=white)](https://github.com/nektos/act/stargazers) | Go / Docker Engine | Apache-2.0 | **Run GitHub Actions locally** inside Docker containers to test workflows quickly without committing code or burning remote minutes. |
 | **[Gitea](https://github.com/go-gitea/gitea)** | [![Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) | Go, Vue | MIT | **Lightweight self-hosted Git service with built-in CI/CD (Gitea Actions)** compatible with GitHub Actions YAML syntax and community actions. |
