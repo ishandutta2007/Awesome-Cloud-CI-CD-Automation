@@ -1,38 +1,51 @@
-# Awesome-Cloud-CI-CD-Automation
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud CI/CD Automation Banner" width="100%" />
+</p>
 
-**Top Cloud CI CD Automation (Opensource) 🌟 Star if you like it! 🌟**
+# 🚀 Awesome Cloud CI/CD Automation
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-CI-CD-Automation?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-CI-CD-Automation?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-CI-CD-Automation/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Pipeline Orchestration, Self-Hosted Runners, GitOps Delivery & Container-Native Builds*
+> 🌟 **Top Cloud CI/CD Automation & DevOps Tools (Open Source & Managed SaaS)** — Star if you find this valuable!
 
-**Last updated: October 2026**
+**A curated list and developer guide to modern Continuous Integration (CI), Continuous Delivery (CD), GitOps delivery engines, self-hosted runner infrastructure, and container-native pipeline orchestration.**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud CI/CD Automation**. These tools enable teams to build, test, and deploy software automatically—from fully managed cloud pipelines with generous free tiers and deep Git integration to self-hosted runners and Kubernetes-native frameworks that give organizations complete control over their build infrastructure.
-
-**Examples** include GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, AWS CodePipeline, Buildkite, Semaphore, Travis CI, and Drone (the category leaders in commercial and open-source space).
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted CI/CD, container-native pipelines, and open automation infrastructure. **Critical note**: The open-source CI/CD landscape is mature and deeply fragmented—**Jenkins** remains the most extensible with the largest plugin ecosystem, **Woodpecker CI** and **Gitea Actions** are the easiest self-hosted entry points, **Tekton** and **Argo CD** dominate Kubernetes-native workflows, and **Dagger** represents the programmable pipeline future. No single open-source tool matches GitHub Actions' marketplace ecosystem, but for self-hosted control, the options are production-proven at scale.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+*Last updated: October 2026*
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global CI/CD and pipeline automation market is estimated at **$10.38B – $13.2B in 2026**, growing at a 14–22% CAGR driven by cloud-native architecture, microservices, and agentic AI developer workflows. The sector is **moderately concentrated at the top**—where platform hyperscalers and suites like Microsoft (GitHub Actions/Azure DevOps), GitLab, and Atlassian dominate enterprise adoption—yet remains **fragmented across implementation layers**, where over 70% of organizations maintain multi-tool stacks, self-hosted runner infrastructure, and specialized GitOps/orchestration engines.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-## SaaS/Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
+
+The global **Continuous Integration & Continuous Delivery (CI/CD)** and pipeline automation market is estimated at **$10.38B – $13.2B in 2026**, expanding at a rapid **14% to 22% CAGR** powered by the global transition toward containerized microservices, multi-cloud Kubernetes architectures, and agentic AI-assisted developer workflows. 
+
+The market dynamics exhibit a **two-tier structural ecosystem**:
+- **Moderately Concentrated at the Enterprise Suite Tier**: Megascale platform suites—led by Microsoft (GitHub Actions & Azure DevOps), GitLab CI, and Atlassian (Bitbucket Pipelines)—dominate commercial enterprise adoption due to repository lock-in and bundled developer platform licenses.
+- **Deeply Fragmented across Developer Implementation Layers**: Over **70% of engineering organizations** maintain self-hosted runners or multi-tool toolchains. Engineering teams continuously mix-and-match specialized continuous deployment orchestrators (such as Argo CD or Flux), container engines (Dagger, Earthly), and cost-effective self-hosted infrastructure (Jenkins, Woodpecker, Gitea Actions) to fulfill strict compliance, data sovereignty, and hardware optimization requirements.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Below is a detailed breakdown of industry-leading commercial CI/CD platforms. Entries are sorted descending by company size (valuation / revenue scale).
 
 | Company / Product | Company Size (Revenue / Valuation) | Pricing (Starting Paid Tier) | Free Tier Limits | Key Highlights & Best For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -48,7 +61,9 @@ The global CI/CD and pipeline automation market is estimated at **$10.38B – $1
 
 ---
 
-## Open-Source GitHub Projects
+## 🛠️ Open-Source GitHub Projects
+
+Explore the top open-source projects for self-hosted CI engines, GitOps controllers, and containerized runner automation. Entries are sorted descending by GitHub star count.
 
 | Project | Stars | Tech Stack / Architecture | License | Key Strengths & Deployment Model |
 | :--- | :---: | :--- | :--- | :--- |
@@ -72,26 +87,45 @@ The global CI/CD and pipeline automation market is estimated at **$10.38B – $1
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format and table structure).
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+Contributions are always welcome! Help keep this guide up-to-date with new tools, price changes, and architecture patterns:
 
-Star the repo if you find it useful!
-
----
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- CI/CD platforms handling code and deployment credentials must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls and secret management.
-- **The "SaaS platform" vs. "self-hosted CI" vs. "GitOps CD" vs. "programmable engine" distinction is critical.** **GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, AWS CodePipeline, Buildkite, Semaphore, and Travis CI** are **managed SaaS platforms**—they provide hosted runners and orchestration. **Jenkins, Woodpecker CI, Gitea Actions, Tekton, Concourse, and GoCD** are **self-hosted CI/CD tools**—you own the infrastructure and maintenance. **Argo CD** and **Flux 2** are **GitOps CD**—they handle deployment and reconciliation, not build/test. **Dagger** is a **programmable engine**—it runs anywhere but is not a standalone server. **Choose based on whether you want managed convenience, full control, or GitOps delivery.**
-- Self-hosted open-source solutions require proper infrastructure (servers, runners, databases), security hardening for build credentials, and ongoing maintenance. Ensure your deployment meets your organization's security standards and includes secret management before automating production deployments.
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/new-tool`.
+3. 📝 Update `README.md` following the tabular format (include tool name, website link, company metrics/stars, starting pricing tier, free tier limits, tech stack, and key strengths).
+4. 🚀 Push changes and open a **Pull Request** with a brief summary.
 
 ---
 
-**Made for developers, DevOps teams, and organizations building transparent CI/CD automation solutions.**
+## 💖 Support & Sponsorship
 
-Let's make Cloud CI/CD Automation more open, data-driven, and pipeline-friendly.
+Thank you for exploring and using **Awesome Cloud CI/CD Automation**! 
+
+If you find this repository helpful for your engineering team, side projects, or DevOps research, please consider supporting the maintenance of this project:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and share** it with your engineering colleagues and DevOps communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to back further open-source research and tooling, you can sponsor through the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**. Every bit of support is deeply appreciated!
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-CI-CD-Automation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-CI-CD-Automation&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** — provided for informational and architectural evaluation purposes.
+- CI/CD platforms handling source code, build artifacts, and deployment secrets must strictly comply with industry data protection regulations (GDPR, SOC 2, HIPAA) and incorporate robust secret scanning and role-based access control (RBAC).
+- **Architecture Distinction**: **GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, AWS CodePipeline, Buildkite, Semaphore, and Travis CI** provide hosted runner clouds and managed SaaS orchestration. **Jenkins, Woodpecker, Gitea Actions, Tekton, Concourse, and GoCD** require self-hosted compute and database maintenance. **Argo CD** and **Flux 2** specialize in **GitOps continuous delivery**, while **Dagger** operates as a **programmable build engine**.
+- Ensure any self-hosted or cloud runner deployment adheres to your organization's security baseline prior to automating production infrastructure.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for developers, DevOps engineers, and cloud architects worldwide.</b><br/>
+  Let's make Cloud CI/CD Automation open, observable, and pipeline-friendly!
+</p>
